@@ -1,0 +1,91 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .content-media {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Video-Title {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .Video-Title iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+
+    .content-recommendation {
+        margin-top: 20px;
+    }
+
+    .thumbnails {
+        gap: 12px;
+    }
+
+    .thumbnails img {
+        width: 160px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px 15px;
+        height: auto;
+    }
+
+    .nav-account-functions a:not(:last-child) {
+        display: none;
+    }
+
+    .search-container {
+        max-width: 180px;
+    }
+
+    .Interaction {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .interaction-buttons {
+        width: 100%;
+        overflow-x: auto; 
+        padding-bottom: 8px;
+        justify-content: flex-start;
+        font-size: 0.9rem;
+    }
+
+    .interaction-buttons p {
+        white-space: nowrap;
+        background-color: #f2f2f2;
+        padding: 8px 12px;
+        border-radius: 18px;
+    }
+
+    .subscribe {
+        width: 100%;
+        padding: 12px 0;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails img {
+        width: 100%;
+        height: auto;
+    }
+}

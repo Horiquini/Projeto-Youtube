@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 1vh;
+    position: sticky;
+    z-index: 1000;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.nav-redirect{
+    display: flex;
+   gap: 15px;
+   align-items: center;
+}
+
+.nav-account-functions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-account-functions .foto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; 
+  height: 40px;
+}
+
+
+.search-input {
+  flex: 1; 
+  height: 100%;
+  padding: 0 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-right: none; 
+  border-radius: 40px 0 0 40px; 
+  outline: none;
+}
+
+
+.search-input:focus {
+  border-color: #065fd4;
+}
+
+
+.search-button {
+  width: 64px;
+  height: 100%;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 0 40px 40px 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  fill: #606060;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 75% 20%; 
+  gap: 24px; 
+  margin: 0 auto;
+}
+
+.content-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  margin-left: 10%;
+}
+
+.Video-Title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+    height: 100%;
+}
+
+.Video-Title iframe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.channel{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Interaction{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.interaction-buttons{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  text-align: left;
+  gap: 1;
+}
+
+.subscribe{
+  padding: 10px 40px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(194, 9, 9);
+  color: white;
+  cursor: pointer;
+}
+
+.subscribe:hover{
+  border: 1px solid red;
+}
+
+.Date-Legend p{
+  padding: 10px;
+}
+
+.content-recommendation{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thumbnails{
+  display: flex;
+}
+
+.thumbnails p{
+  padding: 1px 2px;
+}
